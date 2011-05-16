@@ -1,0 +1,5 @@
+Features to be added:
+- A script to rip files from a course on vista (this is already implemented in the vista class using the download method on a VistaFolder download method).
+- Course registration. This requires a method of checking whether a spot in the course is open or not and registering for it if it is.
+- Library support. This could include a script to renew all books automatically.
+- Better examples.
