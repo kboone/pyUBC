@@ -48,9 +48,9 @@ class CwlSite(object):
 			('Accept-Encoding', ('gzip,deflate')),
 		]
 
-		print "Logging in to CWL..."
+		print("Logging in to CWL...")
 		self.login(username, password)
-		print "Log in successful."
+		print("Log in successful.")
 
 	def login(self, username, password):
 		""" Log in to a service using through CWL """
@@ -69,7 +69,7 @@ class CwlSite(object):
 		POST paramaters can be either in a dict or as kwargs.
 		"""
 		if debugPrintRequests:
-			print "GET:", page
+			print("GET:", page)
 			
 		if postParams:
 			postData = urlencode(postParams)
